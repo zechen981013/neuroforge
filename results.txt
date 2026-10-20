@@ -1,0 +1,21 @@
+Ames 房价预测结果报告
+==================================================
+数据规模: 1460 行 x 81 列
+SalePrice 偏度: 1.88 -> log 后: 0.12
+
+随机森林 RandomForest    | log-RMSE: 0.1457 | 原价格RMSE: $29,520
+梯度提升 GradientBoosting | log-RMSE: 0.1376 | 原价格RMSE: $30,020
+
+最优模型: 梯度提升 GradientBoosting
+
+Top 10 重要特征:
+OverallQual         0.4424
+GrLivArea           0.1793
+TotalBsmtSF         0.0449
+GarageFinish_Unf    0.0426
+GarageCars          0.0395
+YearBuilt           0.0308
+BsmtFinSF1          0.0259
+GarageArea          0.0253
+YearRemodAdd        0.0240
+LotArea             0.0192
